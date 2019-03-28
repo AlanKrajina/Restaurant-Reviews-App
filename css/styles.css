@@ -23,7 +23,7 @@ a {
 }
 a:hover, a:focus {
 	color: #3397db;
-	text-decoration: none;
+	text-decoration: underline;
 }
 a img{
 	border: none 0px #fff;
@@ -52,9 +52,9 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
-  height: 80px;
   background-color: #252831;
   text-align:center;
+  padding: 25px 0;
 }
 nav h1 {
   margin: auto;
@@ -135,7 +135,6 @@ nav h1 a {
   width: 0;
   overflow: hidden;
 }
-
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
@@ -153,7 +152,7 @@ nav h1 a {
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 15px 25px;
+  padding: 30px 30px 25px;
   text-align: left;
   width: 270px;
 }
@@ -164,6 +163,7 @@ nav h1 a {
   max-width: 100%;
   min-height: 248px;
   min-width: 100%;
+  border-radius: 30px 0;
 }
 #restaurants-list li h1 {
   color: #f18200;
@@ -231,6 +231,7 @@ nav h1 a {
 }
 #restaurant-img {
 	width: 90%;
+    border-radius: 30px 0;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -275,17 +276,34 @@ nav h1 a {
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 10px 20px 20px;
   position: relative;
   width: 85%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
+  border-radius: 15px 0 0;
 }
 #restaurant-hours td {
   color: #666;
 }
+.person {
+	background-color: #333;
+	color: #ddd;
+	font-size: 12pt;
+	font-weight: 300;
+	letter-spacing: 10px;
+	padding: 2px 0;
+	text-align: center;
+}
+.date,
+.rating {
+	font-weight: bold;
+	text-align: center;
+}
 
+.comments{
+	padding: 5px;
+}
 /* ====================== Responsive Design ====================== */
 
 @media screen and (min-width: 360px) {
@@ -360,7 +378,6 @@ nav h1 a {
 .inside #reviews-list li {
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 10px 20px 20px ;
   position: relative;
   width: 90%;
 }
