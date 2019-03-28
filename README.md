@@ -23,3 +23,9 @@ Restaurant Reviews App is the 5th Udacity Project in the Front-End Web Developer
 4. Python 2.x: start the server with python -m SimpleHTTPServer 8080
 5. Python 3.x: start the server with python3 -m http.server 8080 or python -m http.server 8080
 6. In Google Chrome, you can also use the Web Server for Chrome extension to simulate a server and then set the port to 8080.
+
+# Project Specification
+https://review.udacity.com/#!/rubrics/1090/view
+
+# Starter Repository
+https://github.com/udacity/mws-restaurant-stage-1
